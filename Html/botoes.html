@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma aula sobre botões</title>
+</head>
+<body>
+
+    <!--button coloca um botão interativo para uso simples ou aplicar funções de javascript-->
+    <a href="https://www.google.com">
+        <button style="background-color: blueviolet; color-interpolation-filters: linearRGB; border-radius: 5px;" >Aperte!</button>
+    </a>
+
+    <br>
+    <br>
+    <br>
+
+    <!--Função simples de java script-->    
+        <button onclick="doSomething()" style="background-color: rgb(152, 146, 158); color-interpolation-filters: linearRGB; border-radius: 2px;" >Aperte!</button>
+
+        <p id="test">Olá!!</p>
+
+        <script>
+            function doSomething(){
+                document.getElementById("test").innerHTML = "Até mais!!"
+            }
+        </script>
+
+</body>
+</html>
